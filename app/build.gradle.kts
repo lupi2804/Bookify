@@ -55,10 +55,16 @@ dependencies {
 
     implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
     implementation("com.google.firebase:firebase-analytics")
+    implementation(libs.car.ui.lib)
 
+    implementation("com.github.florent37:diagonal-layout:1.0.9")
+    implementation("com.flaviofaria:kenburnsview:1.0.7")
+    implementation("com.github.ivbaranov:materialfavoritebutton:0.1.5")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
 
 }
