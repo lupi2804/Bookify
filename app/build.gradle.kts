@@ -60,7 +60,7 @@ dependencies {
     implementation("com.google.android.material:material:1.9.0")
 
     // Additional libraries
-    implementation("com.github.florent37:diagonal-layout:1.0.8") // JitPack
+    implementation("com.github.florent37:diagonal-layout:1.0.7") // JitPack
     implementation("com.flaviofaria:kenburnsview:1.0.7")
     implementation("com.github.ivbaranov:materialfavoritebutton:0.1.5")
 
@@ -68,4 +68,6 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation (files("libs/diagonal-layout-1.0.8.aar"))
+
 }
